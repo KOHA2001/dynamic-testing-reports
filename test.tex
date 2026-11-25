@@ -1,0 +1,42 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\title{LaTeX 测试文档}
+\author{测试作者}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{基本文字与公式}
+这是一段中文 LaTeX 测试文本，用于检查中文排版、章节标题和数学公式是否正常。
+
+例如，勾股定理可以写为：
+\begin{equation}
+  a^2 + b^2 = c^2
+\end{equation}
+
+\section{表格测试}
+\begin{table}[htbp]
+  \centering
+  \caption{测试数据}
+  \begin{tabular}{ccc}
+    \toprule
+    序号 & 输入 $x$ & 输出 $y$ \\
+    \midrule
+    4 & 2 & 2 \\
+    2 & 2 & 4 \\
+    3 & 3 & 6 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{列表测试}
+\begin{enumerate}
+  \item 中文列表项
+  \item 含有数学表达式的列表项：$y = 2x$
+\end{enumerate}
+
+\end{document}

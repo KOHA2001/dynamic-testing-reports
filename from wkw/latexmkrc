@@ -1,0 +1,2 @@
+# Overleaf：使用 XeLaTeX 编译中文报告
+$pdf_mode = 5;
